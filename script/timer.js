@@ -124,14 +124,7 @@ const timer = () => {
 
     if (setData <= 0) {
       clearTimeout(intervalId);
-      countDays.textContent = '00';
-      unitsDays.textContent = 'дней';
-      countHours.textContent = '00';
-      unitsHours.textContent = 'часов';
-      countMinutes.textContent = '00';
-      unitsMinutes.textContent = 'минут';
-      countSeconds.textContent = '00';
-      unitsSeconds.textContent = 'секунд';    
+      app.remove(); 
     }
   };
 
