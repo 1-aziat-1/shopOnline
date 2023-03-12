@@ -1,0 +1,37 @@
+.timer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 30px;
+  width: 600px;
+  height: 105px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.timer__title {
+  grid-column: 1/4;
+  align-self: center;
+  justify-self: center;
+  font-size: 16px;
+}
+
+.timer__item{
+  align-self: end;
+  justify-self: center;
+}
+
+.timer__count {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.timer__units {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.no-timer {
+  display: none;
+}
